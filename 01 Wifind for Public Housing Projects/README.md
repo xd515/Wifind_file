@@ -55,3 +55,4 @@ After cleanning the data, I use the tool of the Kernel Density with ArcGIS to pl
 
 Besides, I make the choropleth map of signal stregths of free wifi, which is "downtownbrooklynwifi_fon".
 
+![](Visualizations/free.jpg)
