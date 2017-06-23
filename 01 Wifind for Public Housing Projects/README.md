@@ -89,7 +89,8 @@ sudo git add dxm10000.csv; sudo git commit -m "dxm10000.csv"; sudo git push
 After cleanning the data, I use the tool of the Kernel Density with ArcGIS to plot the density of all the access poins.
 
 ```
-![](Visualizations/all)
+![](Visualizations/all.jpg)
+
 ```
 
 Besides, I make the choropleth map of signal stregths of free wifi, which is "downtownbrooklynwifi_fon".
