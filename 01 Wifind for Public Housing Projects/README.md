@@ -68,6 +68,7 @@ describe wifi_scan;
 | level         | float         | YES  |     | NULL    |                |
 | freq          | float         | YES  |     | NULL    |                |
 +---------------+---------------+------+-----+---------+----------------+
+```
 
 ```mysql
 exit;
@@ -76,11 +77,13 @@ exit;
 mysql -uroot -p capstonemysql -e "select * from wifi_scan limit 30000" -B | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > dxm10000.csv
 
 scp wifind@wifind.cusp.nyu.edu:t10000.csv ./
+```
 
 ```wifind
 mv dxm10000.csv Wifind_file/
 cd Wifind_file
 ls
 sudo git add dxm10000.csv; sudo git commit -m "dxm10000.csv"; sudo git push
+```
 
 
