@@ -26,48 +26,10 @@ show databases;
 ```mysql
 use capstonemysql;
 show tables;
-+----------------------------+
-| Tables_in_capstonemysql    |
-+----------------------------+
-| auth_group                 |
-| auth_group_permissions     |
-| auth_permission            |
-| auth_user                  |
-| auth_user_groups           |
-| auth_user_user_permissions |
-| django_content_type        |
-| django_migrations          |
-| django_site                |
-| gpsq                       |
-| ingestion_scan             |
-| test_unique_locations      |
-| wifi_scan                  |
-| wifi_scan_orig             |
-| wifi_scan_temp             |
-+----------------------------+
 ```
 
 ```mysql
 describe wifi_scan;
-+---------------+---------------+------+-----+---------+----------------+
-| Field         | Type          | Null | Key | Default | Extra          |
-+---------------+---------------+------+-----+---------+----------------+
-| idx           | bigint(20)    | NO   | PRI | NULL    | auto_increment |
-| lat           | double        | NO   |     | NULL    |                |
-| lng           | double        | NO   |     | NULL    |                |
-| acc           | float         | NO   |     | NULL    |                |
-| altitude      | double        | NO   |     | NULL    |                |
-| time          | decimal(15,0) | NO   |     | NULL    |                |
-| device_mac    | varchar(20)   | NO   |     | NULL    |                |
-| app_version   | varchar(10)   | NO   |     | NULL    |                |
-| droid_version | varchar(10)   | NO   |     | NULL    |                |
-| device_model  | varchar(50)   | NO   |     | NULL    |                |
-| ssid          | varchar(100)  | YES  | MUL | NULL    |                |
-| bssid         | varchar(20)   | YES  |     | NULL    |                |
-| caps          | varchar(100)  | YES  |     | NULL    |                |
-| level         | float         | YES  |     | NULL    |                |
-| freq          | float         | YES  |     | NULL    |                |
-+---------------+---------------+------+-----+---------+----------------+
 ```
 
 ```mysql
