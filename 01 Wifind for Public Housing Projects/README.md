@@ -1,4 +1,4 @@
-This folder is about how to pull data from database, and shows the process of visualizing the data collected through mobile.
+This folder is about how to pull data from database, and shows the visualization of cleaned data collected through mobile.
 
 **Log in**
 
